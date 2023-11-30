@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(51, 145, 177);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+
+.add {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: rgb(7, 32, 33);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+
+.note {
+    background-color: rgb(69, 192, 12);
+    box-shadow: 5px 5px 20px rgb(17, 76, 79);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools {
+    background-color: rgb(7, 32, 33);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+
+.note textarea {
+    background-color: rgb(159, 237, 130);
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+    height: 350px;
+    width: 97%;
+    padding: 20px;
+}
+
+
+.hidden {
+    display: none;
+}
